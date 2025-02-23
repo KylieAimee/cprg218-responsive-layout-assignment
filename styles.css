@@ -1,5 +1,11 @@
 * {
     box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /*header*/
@@ -22,22 +28,19 @@ header{
 figure img{
     border: #d9043d 5px solid;
     max-width: 100%;
-    
 }
 
 @media screen and (min-width: 769px) {
     figure img{
         max-width: 300px;
         display: flex;
-        margin: 1rem;
     }
     
     
 }
-@media screen and (min-width: 769px) {
-    figure{
-        display: flex;
-    }
+
+figcaption{
+    margin-top: 1rem;
 }
 
 h2{
@@ -47,8 +50,15 @@ h2{
 /*aside*/
 aside{
     background-color: #97bf04;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
+@media screen and (min-width: 1000px) {
+    .flex-container{
+        display: flex;
+    }
+}
 
 /*footer*/
 footer{
