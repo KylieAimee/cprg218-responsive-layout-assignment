@@ -1,20 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+/*header*/
 header{
     background-color: #120323;
     color: #97bf04;
+    text-align: center;
+    padding: 1rem;
 }
 
+@media screen and (min-width: 769px) {
+    header {
+        display: flex;
+        align-items: center;
+
+    }
+}
+
+/*Puffin image*/
 figure img{
     border: #d9043d 5px solid;
+    max-width: 100%;
+    
+}
+
+@media screen and (min-width: 769px) {
+    figure img{
+        max-width: 300px;
+        display: flex;
+        margin: 1rem;
+    }
+    
+    
+}
+@media screen and (min-width: 769px) {
+    figure{
+        display: flex;
+    }
 }
 
 h2{
     color: #120323;
 }
 
+/*aside*/
 aside{
     background-color: #97bf04;
 }
 
+
+/*footer*/
 footer{
     background-color: #d9043d;
+    color: white;
+    text-align: center;
+    padding: 2rem;
 }
+
