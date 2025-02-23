@@ -20,6 +20,7 @@ header{
     header {
         display: flex;
         align-items: center;
+        justify-content: center;
 
     }
 }
@@ -33,10 +34,13 @@ figure img{
 @media screen and (min-width: 769px) {
     figure img{
         max-width: 300px;
+    }
+    figure{
         display: flex;
     }
-    
-    
+    figcaption{
+        margin-left: 1rem;
+    }
 }
 
 figcaption{
@@ -55,8 +59,15 @@ aside{
 }
 
 @media screen and (min-width: 1000px) {
-    .flex-container{
+    #container{
         display: flex;
+        margin-top: 2rem;
+    }
+    figure{
+        display: flex;
+    }
+    figcaption{
+        margin-left: 1rem;
     }
 }
 
