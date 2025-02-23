@@ -1,0 +1,20 @@
+header{
+    background-color: #120323;
+    color: #97bf04;
+}
+
+figure img{
+    border: #d9043d 5px solid;
+}
+
+h2{
+    color: #120323;
+}
+
+aside{
+    background-color: #97bf04;
+}
+
+footer{
+    background-color: #d9043d;
+}
