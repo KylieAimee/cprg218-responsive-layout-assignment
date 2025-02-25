@@ -17,6 +17,7 @@ header{
 }
 
 @media screen and (min-width: 769px) {
+    /*medium size*/
     header {
         display: flex;
         align-items: center;
@@ -32,14 +33,21 @@ figure img{
 }
 
 @media screen and (min-width: 769px) {
+    /*medium size*/
     figure img{
         max-width: 300px;
+        height:100%;
+
     }
     figure{
         display: flex;
+
     }
     figcaption{
         margin-left: 1rem;
+    }
+    h2{
+        margin-top: 0;
     }
 }
 
@@ -59,15 +67,20 @@ aside{
 }
 
 @media screen and (min-width: 1000px) {
+    /*large size*/
     #container{
         display: flex;
         margin-top: 2rem;
     }
     figure{
-        display: flex;
+        flex: 1;
     }
     figcaption{
         margin-left: 1rem;
+    }
+    aside{
+        height: 100%;
+        max-width: 340px;
     }
 }
 
