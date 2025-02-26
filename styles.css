@@ -6,6 +6,7 @@
 body{
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-direction: column;
 }
 
 /*header*/
@@ -30,6 +31,9 @@ header{
 figure img{
     border: #d9043d 5px solid;
     max-width: 100%;
+}
+figcaption{
+    margin-top: 0;
 }
 
 @media screen and (min-width: 769px) {
